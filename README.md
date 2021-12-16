@@ -27,3 +27,6 @@ Quick demo tool [here](https://youtu.be/Aekr2aW-kps)
   - whois tool interface
   - Calculator
   - Archive backup file and Email
+
+## Note
+Copyrights by 54010N Team!
