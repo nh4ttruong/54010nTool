@@ -17,7 +17,6 @@ logo()
 }
 
 #filemanagement
-
 create_folder () {
   current_folder=`pwd`
   echo "Enter the new folder name: "  
@@ -554,7 +553,7 @@ diskchecking()
 	#email send
 	echo -e "\nThis is automated email from $(hostname)!" >> "$path"
 
-	cat $path | mail -s "Linux: Emergency alert of your disk space!" "19522445@gm.uit.edu.vn"
+	cat $path | mail -s "Linux: Emergency alert of your disk space!" "[***gmail***]"
 	tput bold; tput setaf 7; echo -e "\nEmail is sent!"
 	sleep 10
 }
@@ -580,7 +579,7 @@ do
     echo "4. Process Management" 
     tput cup 17 28
     echo "5. Stuff"  
-	echo
+echo
     # Set bold mode
     tput bold
     tput cup 19 27
